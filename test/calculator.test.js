@@ -23,7 +23,7 @@ describe("String Calculator", () => {
     });
     
     it("should throw an error for negative numbers", () => {
-        expect(() => add("1,-2,3,-4")).to.throw("Negative numbers not allowed: -2, -4");
+        expect(() => add("1,-2,3,-4")).to.throw("Negative numbers not allowed: -2,-4");
     });
     
 });
