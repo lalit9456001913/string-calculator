@@ -13,4 +13,9 @@ describe("String Calculator", () => {
     it("should return sum of two numbers", () => {
         expect(add("1,2")).to.equal(3);
     });
+    
+    it("should handle new lines between numbers", () => {
+        expect(add("1\n2,3")).to.equal(6);
+    });
+    
 });
