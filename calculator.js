@@ -10,3 +10,5 @@ function add(numbers) {
 
     return numbers.split(delimiter).reduce((sum, num) => sum + parseInt(num, 10), 0);
 }
+
+module.exports = { add }; 
